@@ -39,6 +39,21 @@ saved into a config at: `~/.config/gitify.js` for future runs
 
     gitify [<repo> <description> <user> <password>]
 
+If the information provided is not complete, a CLI pop up will appear, prompting for the valid information.
+
+For example,
+
+    gitify aaa bbb ccc
+
+will prompt
+
+    ? Please input your repository name:  (aaa)
+    ? Please input your repository description:  (bbb)
+    ? Please input your username:  (ccc)
+    ? Please input your password: 
+
+where the input parameters are set as default values (meaning pressing `[Enter]` is the same as inputting that string)
+
 ## License
 
 MIT
