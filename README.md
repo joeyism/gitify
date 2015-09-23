@@ -36,6 +36,11 @@ gitify(
 saved into a config at: `~/.config/gitify.js` for future runs 
 
 ## Commandline
+To use the Commandline tool, install it globally with
+
+    npm install -g gitify
+
+Then run with
 
     gitify [<repo> <description> <user> <password>]
 
